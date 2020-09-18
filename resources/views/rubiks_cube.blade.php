@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-10">
+            <div class="col-12">
                 <div class="card">
                     <h5 class="card-title">Rubik's Cube</h5>
                     <p>
