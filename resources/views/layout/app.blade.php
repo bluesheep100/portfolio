@@ -7,7 +7,7 @@
 <body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-theme-onload="true">
 
 <div class="page-wrapper with-sidebar" data-sidebar-type="full-height">
-    @include('layout.sidebar')
+    <x-sidebar></x-sidebar>
 
     <div class="content-wrapper">
         @yield('content')
