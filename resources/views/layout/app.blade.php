@@ -6,7 +6,9 @@
 </head>
 <body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-theme-onload="true">
 
-<div class="page-wrapper with-sidebar" data-sidebar-type="full-height">
+<div class="page-wrapper with-sidebar with-navbar" data-sidebar-type="overlayed-sm-and-down">
+    <x-navbar></x-navbar>
+
     <x-sidebar></x-sidebar>
 
     <div class="content-wrapper">
