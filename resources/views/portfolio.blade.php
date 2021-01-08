@@ -6,7 +6,7 @@
             <div class="col-12 col-lg-8">
                 <div class="card">
                     <h5 class="card-title">My Portfolio</h5>
-                    <a href="https://github.com/bluesheep100/rubikscube">Github</a>
+                    <a href="https://github.com/bluesheep100/portfolio">https://github.com/bluesheep100/portfolio</a>
                     <p>
                         This is the website you're currently on! I decided on making this when I discovered <a href="https://www.gethalfmoon.com/">Halfmoon</a>,
                         because I was so impressed by its simplicity and ease of use, that I simply <strong>had</strong> to try it out.<br>

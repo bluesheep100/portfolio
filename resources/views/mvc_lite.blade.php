@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-12 col-lg-8">
                 <div class="card">
-                    <h3>MVC-lite</h3>
+                    <h5 class="card-title">MVC-lite</h5>
                     <a href="https://github.com/bluesheep100/mvc-lite">https://github.com/bluesheep100/mvc-lite</a>
                     <p>
                         This is a patchwork solution I came up with to solve the problem of being at a workplace where I
