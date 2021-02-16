@@ -17,5 +17,8 @@
         <a href="{{ route('mvc_lite') }}" class="sidebar-link @if(request()->route()->named('mvc_lite')) active @endif">
             MVC-lite
         </a>
+        <a href="{{ route('yahtzee') }}" class="sidebar-link @if(request()->route()->named('yahtzee')) active @endif">
+            Yahtzee
+        </a>
     </div>
 </div>

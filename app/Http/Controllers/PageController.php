@@ -23,4 +23,9 @@ class PageController extends Controller
     {
         return view('mvc_lite');
     }
+
+    public function yahtzee()
+    {
+        return view('yahtzee');
+    }
 }
