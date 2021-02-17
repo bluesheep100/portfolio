@@ -26,6 +26,8 @@ class PageController extends Controller
 
     public function yahtzee()
     {
-        return view('yahtzee');
+        return view('yahtzee', [
+            'yahtzee' => session('yahtzee'),
+        ]);
     }
 }
