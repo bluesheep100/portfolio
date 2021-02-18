@@ -16,6 +16,15 @@ class YahtzeeController extends Controller
         return redirect(route('yahtzee'));
     }
 
+    public function update()
+    {
+        /** @var Yahtzee $yahtzee */
+        $yahtzee = session('yahtzee');
+        $yahtzee->save(request('players'));
+
+        return redirect(route('yahtzee'));
+    }
+
     public function destroy()
     {
         session()->forget('yahtzee');

@@ -33,6 +33,23 @@ class YahtzeeControllerTest extends TestCase
     }
 
     /** @test */
+    public function scoring_data_can_be_saved()
+    {
+        session(['yahtzee' => new Yahtzee(1)]);
+
+        $response = $this->patch(route('yahtzee_update'), [
+            'players' => [
+                [
+                    'upper' => ['ones' => 2],
+                ],
+            ],
+        ]);
+
+        $response->assertRedirect(route('yahtzee'));
+        $this->assertEquals(2, session('yahtzee')->getGrandTotal(0));
+    }
+
+    /** @test */
     public function a_yahtzee_session_can_be_deleted()
     {
         session(['yahtzee' => new Yahtzee(1)]);

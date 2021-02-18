@@ -28,11 +28,28 @@ class YahtzeeTest extends TestCase
     }
 
     /** @test */
+    public function can_count_grand_total()
+    {
+        $yahtzee = new Yahtzee(1);
+
+        $yahtzee->save([
+            [
+                'upper' => [
+                    'ones' => 4,
+                    'twos' => 2,
+                ],
+            ],
+        ]);
+
+        $this->assertEquals(6, $yahtzee->getGrandTotal(0));
+    }
+
+    /** @test */
     public function can_save_current_point_scores()
     {
         $yahtzee = new Yahtzee(1);
 
-        $yahtzee->save(['upper' => ['twos' => 4]], 0);
+        $yahtzee->save([['upper' => ['twos' => 4]]]);
 
         $this->assertEquals(4, $yahtzee->getGrandTotal(0));
     }

@@ -9,9 +9,7 @@ class Yahtzee
     public const SMALL_STRAIGHT = 30;
     public const LARGE_STRAIGHT = 40;
     public const YAHTZEE = 50;
-    public const RULES = [
-        ''
-    ];
+    public const RULES = [];
 
     public $playerCount;
 
@@ -48,9 +46,9 @@ class Yahtzee
         ];
     }
 
-    public function save(array $data, int $index): void
+    public function save(array $data): void
     {
-        $this->players[$index] = array_replace_recursive($this->players[$index], $data);
+        $this->players = array_replace_recursive($this->players, $data);
     }
 
     public function getGrandTotal(int $index): int
@@ -61,5 +59,10 @@ class Yahtzee
         });
 
         return $total;
+    }
+
+    public function getPlayers(): array
+    {
+        return $this->players;
     }
 }

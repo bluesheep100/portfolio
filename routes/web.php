@@ -12,5 +12,6 @@ Route::get('/mvc-lite', [PageController::class, 'mvcLite'])->name('mvc_lite');
 Route::group(['prefix' => '/yahtzee'], function () {
     Route::get('/', [PageController::class, 'yahtzee'])->name('yahtzee');
     Route::post('/create', [YahtzeeController::class, 'create'])->name('yahtzee_create');
+    Route::patch('/update', [YahtzeeController::class, 'update'])->name('yahtzee_update');
     Route::delete('/delete', [YahtzeeController::class, 'destroy'])->name('yahtzee_delete');
 });
