@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    <footer class="bg-light position-absolute bottom-0 left-0 w-100">
+    <footer class="bg-light position-absolute bottom-0 w-100">
         <div class="p-3 text-center">
             <b>P.S:</b> If you're confused by the background, visit my
             <a href="https://github.com/bluesheep100">Github</a> :)
