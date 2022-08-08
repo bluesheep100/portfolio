@@ -11,7 +11,7 @@
 
     @vite(['resources/js/app.js'])
 
-    <title>Bluesheep's portfolio</title>
+    <title>Anders' portfolio</title>
 </head>
 <body>
 @include('navbar')

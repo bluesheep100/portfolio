@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="navbar-brand">
             <img src="{{ asset('images/bluesheep.png') }}" alt="Icon" width="48" class="rounded-circle">
-            Bluesheep
+            Anders Schütt
         </div>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
