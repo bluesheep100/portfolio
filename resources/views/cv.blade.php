@@ -3,7 +3,7 @@
 @section('content')
     <div class="container-fluid">
         <div class="row justify-content-center mt-5">
-            <div class="col-6">
+            <div class="col-12 col-lg-8 col-xxl-6">
                 <div class="card">
                     <div class="card-body">
                         <h1 class="font-raleway">Skills</h1>
@@ -42,13 +42,22 @@
 
                                 <h4 class="font-raleway">C</h4>
                                 <ul>
-                                    <li></li>
+                                    <li>
+                                        <a href="https://suckless.org/">Suckless</a> utilities
+                                        <ul>
+                                            <li>dwm</li>
+                                            <li>dmenu</li>
+                                            <li>slock</li>
+                                        </ul>
+                                    </li>
                                 </ul>
 
                                 <h4 class="font-raleway">Go</h4>
                                 <ul>
-                                    <li>Temperature sensing via. MCP9808 on I<sup>2</sup>C bus</li>
-                                    <li><a href="https://github.com/bluesheep100/go-temp">Repository</a></li>
+                                    <li>
+                                        Temperature sensing via. MCP9808 on I<sup>2</sup>C bus
+                                        (<a href="https://github.com/bluesheep100/go-temp">Github</a>)
+                                    </li>
                                 </ul>
 
                                 <h2 class="font-raleway">Work Experience</h2>
