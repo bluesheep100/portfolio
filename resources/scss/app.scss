@@ -1,0 +1,22 @@
+@import '~bootstrap/scss/bootstrap';
+@import '_variables';
+
+.font-raleway {
+    font-family: 'Raleway', 'Nunito', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+
+    //noinspection CssUnknownTarget
+    background-image: url("/images/background.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(3px);
+}
+
+.text-purple {
+    color: #A22DCC
+}
