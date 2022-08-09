@@ -13,7 +13,7 @@
                 <a href="{{ route('welcome') }}" @class(['nav-link', 'active' => Route::is('welcome')])>Home</a>
                 <a href="{{ route('cv') }}" @class(['nav-link', 'active' => Route::is('cv')])>CV</a>
                 <a href="{{ route('contact') }}" @class(['nav-link', 'active' => Route::is('contact')])>Contact</a>
-                <a href="https://github.com/bluesheep100" class="nav-link" target="_blank">Github</a>
+                <a href="https://github.com/bluesheep100/portfolio" class="nav-link" target="_blank">Github</a>
             </div>
         </div>
     </div>

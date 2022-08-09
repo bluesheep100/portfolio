@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-4">
                     <div class="p-3 bg-dark bg-opacity-50 rounded-2 h-100">
-                        <h3 class="font-raleway">Reasonable</h3>
+                        <h3 class="font-raleway">Reasoning</h3>
                         "Reasonable", as in "can be reasoned about"; that's how all code should be, and so is mine.
                         No code is (nor should be) written without prior thought and good reason.
                     </div>
