@@ -1,5 +1,5 @@
-@import '~bootstrap/scss/bootstrap';
 @import '_variables';
+@import '~bootstrap/scss/bootstrap';
 
 .font-raleway {
     font-family: 'Raleway', 'Nunito', sans-serif;
@@ -15,8 +15,4 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(3px);
-}
-
-.text-purple {
-    color: #A22DCC
 }
