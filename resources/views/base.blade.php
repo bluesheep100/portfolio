@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="mh-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,9 +13,13 @@
 
     <title>Anders' portfolio</title>
 </head>
-<body>
-@include('navbar')
+<body class="d-flex flex-column mh-100">
+<main>
+    @include('navbar')
 
-@yield('content')
+    @yield('content')
+</main>
+
+@yield('footer')
 </body>
 </html>
