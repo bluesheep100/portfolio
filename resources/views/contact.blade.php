@@ -13,7 +13,7 @@
                             </div>
                             <div class="col">
                                 <i class="fa-solid fa-envelope"></i>
-                                <b>Email</b>: bluesheep100@hotmail.com
+                                <b>Email</b>: anders@nntq.net
                             </div>
                         </div>
                     </div>
