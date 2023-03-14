@@ -1,7 +1,7 @@
 <div class="navbar navbar-expand-md bg-light">
     <div class="container-fluid">
         <div class="navbar-brand">
-            <img src="{{ asset('images/bluesheep.png') }}" alt="Icon" width="48" class="rounded-circle">
+            <img src="{{ asset('images/bluesheep.webp') }}" alt="Icon" width="48" class="rounded-circle">
             Anders Schütt
         </div>
 
