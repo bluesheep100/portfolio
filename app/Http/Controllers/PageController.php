@@ -20,4 +20,9 @@ class PageController extends Controller
     {
         return view('cv');
     }
+
+    public function bionic(): View
+    {
+        return view('bionic_reader');
+    }
 }

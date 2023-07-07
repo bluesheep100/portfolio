@@ -14,6 +14,15 @@
                 <a href="{{ route('welcome') }}" @class(['nav-link', 'active' => Route::is('welcome')])>Home</a>
                 <a href="{{ route('cv') }}" @class(['nav-link', 'active' => Route::is('cv')])>CV</a>
                 <a href="{{ route('contact') }}" @class(['nav-link', 'active' => Route::is('contact')])>Contact</a>
+                <div class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tools
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ route('bionic') }}">Bionic Reading</a></li>
+                        <li><small class="dropdown-item disabled">More to come!</small></li>
+                    </ul>
+                </div>
                 <a href="https://github.com/bluesheep100/portfolio" class="nav-link" target="_blank">Github</a>
             </div>
         </div>
