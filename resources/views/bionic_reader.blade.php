@@ -15,37 +15,12 @@
                     </div>
                 </div>
                 <div class="d-none col-6">
-                    <div class="bg-white p-3 rounded-2" id="output-container">
-
+                    <div class="bg-white p-3 rounded-2">
+                        <p id="output-container"></p>
                     </div>
                 </div>
             </div>
-{{--            <div class="row">--}}
-{{--                <div class="col bg-white rounded-2 p-3">--}}
-
-{{--                </div>--}}
-{{--            </div>--}}
         </div>
     </div>
-    <script>
-        document.getElementById('bionic-form').addEventListener('submit', function (e) {
-            e.preventDefault();
-            let textarea = this.querySelector('#text');
-            let outputBox = document.getElementById('output-container');
-
-            fetch(location.origin + '/bionic', {
-                method: 'POST',
-                headers: {
-                    'X-CSRF-TOKEN': '{{ csrf_token() }}',
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({text: textarea.value})
-            }).then(async (res) => {
-                outputBox.innerHTML = (await res.json()).output;
-                outputBox.parentElement.classList.remove('d-none');
-            }).catch(() => {
-                outputBox.innerHTML = '<span class="text-danger">An error occurred, please try again.<span>';
-            });
-        });
-    </script>
+    <script src="{{ asset('js/bionic_reader.js') }}"></script>
 @endsection
